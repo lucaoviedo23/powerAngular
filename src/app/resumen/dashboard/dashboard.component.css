@@ -1,0 +1,20 @@
+.main-contianer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.item-second-row {
+  flex-basis: 50%;
+  max-height: 700px;
+  padding: 15px;
+}
+
+.item {
+  flex-basis: 50%;
+  padding: 15px;
+}

@@ -1,0 +1,11 @@
+.example-card {
+  width: 100%;
+  margin: 15px 15px 15px 15px;
+  padding: 3%;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 105px;
+}

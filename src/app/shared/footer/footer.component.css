@@ -1,0 +1,23 @@
+footer {
+  /* position: fixed; */
+  bottom: 0;
+  padding-top: 36px;
+  padding-right:0px ;
+  align-content: center;
+  /* margin-left: 70px; */
+  width: calc(100% - 70px);
+  background-color: #3B74A8;
+
+}
+.home-footer{
+    background-image: url("./../../../assets/images/footer-bg.jpg")
+}
+ul {
+  list-style: none;
+}
+.home-footer .site-footer-data {
+  color: white;
+  font-size: 10px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}

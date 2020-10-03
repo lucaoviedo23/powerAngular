@@ -1,0 +1,21 @@
+<mat-card class="example-card" role="region">
+    <mat-card-header  class="example-card-headers">
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-divider [vertical]="true"></mat-divider>
+      <mat-card-title>Consumo instantáneo</mat-card-title>
+    </mat-card-header>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+    <div class="container">
+      <div id="gaugePotenciaActivaR" class="gauge" ></div>
+      <div id="gaugePotenciaActivaS" class="gauge"></div>
+      <div id="gaugePotenciaActivaT" class="gauge"></div>
+    </div>
+    <div class="container">
+        <ng-container *ngIf="tableData">
+            <app-basic-table [data]="tableData" style="width: 100%;">loading</app-basic-table>        
+          </ng-container>
+    </div>
+    </mat-card-content>
+  </mat-card>
+  

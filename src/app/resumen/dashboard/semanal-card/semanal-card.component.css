@@ -1,0 +1,17 @@
+.example-card {
+    padding: 50px;
+    width: 100%;
+    margin: 15px 15px 220px 15px;
+  }
+  .example-card-headers{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    padding: 10px;
+  }
+  
+  .example-header-image {
+    background-image: url('./../../../../assets/images/consumo-total.png');
+    background-size: cover;
+  }
+  

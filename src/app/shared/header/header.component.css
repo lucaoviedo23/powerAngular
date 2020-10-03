@@ -1,0 +1,16 @@
+
+.toolbar{
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}
+.toolbar img{
+  max-width: 130px;
+}
+.site-header__menu{
+  padding-right: 7px;
+}
+
+.site-header__menu a {
+  padding-right: 7px;
+}

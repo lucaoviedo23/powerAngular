@@ -1,0 +1,11 @@
+table {
+  width: 100%;
+}
+
+.basic-container {
+  padding: 30px;
+}
+
+.mat-header-row {
+  background: #f9fafb;
+}

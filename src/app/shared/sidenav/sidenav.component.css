@@ -1,0 +1,25 @@
+.sidenav_container {
+  min-width: 60px;
+  height: calc(100vh - 200px);
+  margin-top:49px
+
+}
+.anchor-dummy{
+  max-width: 10px;
+
+}
+
+.jim {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.anchor-container{
+  display: flex;
+  flex-direction: row;
+  align-content: center ;
+
+}
+

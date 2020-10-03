@@ -1,0 +1,41 @@
+<div class="container">
+<mat-card class="example-card" role="region">
+    <mat-card-header  class="example-card-headers">
+      <mat-card-title>Costo</mat-card-title>
+      <mat-card-subtitle>(Gráfico)</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="mat-app-background basic-container">
+        <app-basic-table [data]="costoData">loading</app-basic-table>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="example-card" role="region">
+    <mat-card-header  class="example-card-headers">
+      <mat-card-title>Energía activa</mat-card-title>
+      <mat-card-subtitle>(Gráfico)</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="mat-app-background basic-container">
+        <app-basic-table [data]="energiaActivaData">loading</app-basic-table>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="example-card" role="region">
+    <mat-card-header  class="example-card-headers">
+      <mat-card-title>Demanda de potencia</mat-card-title>
+      <mat-card-subtitle>(Gráfico)</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="mat-app-background basic-container">
+        <app-basic-table [data]="demandaPonteciaData">loading</app-basic-table>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+</div>
+
+
+

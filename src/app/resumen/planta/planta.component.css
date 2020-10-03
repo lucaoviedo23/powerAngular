@@ -1,0 +1,17 @@
+.container{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.example-card {
+  justify-content: center !important;
+  padding: 50px;
+  width: 100%;
+  margin: 15px 15px 220px 15px;
+}
+
+.item{
+  max-width: 50%;
+}
